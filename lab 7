@@ -1,0 +1,28 @@
+public class Employee {
+
+    int emp_ID;
+    String name;
+    String depart;
+    double salary
+    double bonus;
+    boolean resident
+
+    public Employee(){
+
+    }
+
+    public Employee(int emp_ID,String name){
+        this.emp_ID=emp_ID;
+        this.name=name;
+
+    }
+
+    public Employee(int emp_ID,String name,boolean resident){
+        this.emp_ID=emp_ID;
+        this.name=name;
+        this.resident=resident;
+
+    }
+
+
+}
